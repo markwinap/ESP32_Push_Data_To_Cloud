@@ -10,7 +10,7 @@
 | 4 | SDA (I2C Data) | This is the data line for I2C communications. |
 | 5 | SCL (I2C Clock) | This is the clock line for I2C communications. |
 | 6 | V+ |  2.7V - 5.5V DC. |
-| 7 | GND  |  2.7V - 5.5V DC. |
+| 7 | GND  |  GND |
 
 
 ###  SIPY PinOut
@@ -19,5 +19,5 @@
 | ------ | ------ | ------ |
 | 18 | GPIO12 SDA (I2C Data) | This is the data line for I2C communications. |
 | 20 | GPIO13 SCL (I2C Clock) | This is the clock line for I2C communications. |
-| 6 | V+ |  2.7V - 5.5V DC. |
-| 7 | GND  |  2.7V - 5.5V DC. |
+| 6 | V+ |  3.3V DC. Up to 1.2-A Maximum Load Capability. Output ONLY. |
+| 7 | GND  |  GND |
