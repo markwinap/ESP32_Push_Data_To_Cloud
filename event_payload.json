@@ -1,0 +1,84 @@
+{
+    "resource": "/diesel-monitor",
+    "path": "/diesel-monitor",
+    "httpMethod": "POST",
+    "headers": {
+      "accept-charset": "UTF-8;q=0.9,*;q=0.7",
+      "accept-encoding": "gzip,deflate",
+      "accept-language": "fr",
+      "content-type": "application/json",
+      "Host": "qmfrgy8wx6.execute-api.us-east-1.amazonaws.com",
+      "User-Agent": "SIGFOX",
+      "X-Amzn-Trace-Id": "Root=1-5c491bd1-d237e000c79229621879313d",
+      "X-Forwarded-For": "185.110.97.11",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "accept-charset": [
+        "UTF-8;q=0.9,*;q=0.7"
+      ],
+      "accept-encoding": [
+        "gzip,deflate"
+      ],
+      "accept-language": [
+        "fr"
+      ],
+      "content-type": [
+        "application/json"
+      ],
+      "Host": [
+        "qmfrgy8wx6.execute-api.us-east-1.amazonaws.com"
+      ],
+      "User-Agent": [
+        "SIGFOX"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-5c491bd1-d237e000c79229621879313d"
+      ],
+      "X-Forwarded-For": [
+        "185.110.97.11"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "am7tb8",
+      "resourcePath": "/diesel-monitor",
+      "httpMethod": "POST",
+      "extendedRequestId": "T_FIsHp-oAMFbRw=",
+      "requestTime": "24/Jan/2019:01:58:41 +0000",
+      "path": "/dev/diesel-monitor",
+      "accountId": "607183532758",
+      "protocol": "HTTP/1.1",
+      "stage": "dev",
+      "domainPrefix": "qmfrgy8wx6",
+      "requestTimeEpoch": 1548295121245,
+      "requestId": "9299014d-1f7b-11e9-86fd-49fc03c2b23d",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "185.110.97.11",
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "SIGFOX",
+        "user": null
+      },
+      "domainName": "qmfrgy8wx6.execute-api.us-east-1.amazonaws.com",
+      "apiId": "qmfrgy8wx6"
+    },
+    "body": "{\r\n    \"device\": \"4D58B1\",\r\n    \"time\": \"1548295119\",\r\n    \"duplicate\": \"false\",\r\n    \"snr\": \"10.62\",\r\n    \"station\": \"792D\",\r\n    \"data\": \"001400140014001400140014\",\r\n    \"avgSnr\": \"10.60\",\r\n    \"lat\": \"21.0\",\r\n    \"lng\": \"-100.0\",\r\n    \"rssi\": \"-115.00\",\r\n    \"seqNumber\": \"7\"\r\n}",
+    "isBase64Encoded": false
+  }
