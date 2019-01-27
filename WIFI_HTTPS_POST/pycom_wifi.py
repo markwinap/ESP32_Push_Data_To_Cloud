@@ -6,9 +6,9 @@ import machine
 import network
 import urequests
 
-SSID = "INFINITUM3736_2.4"
-PSW = "Maxpayne32"
-APIGTW = "https://qmfrgy8wx6.execute-api.us-east-1.amazonaws.com/dev/diesel-monitor"
+SSID = "your_wifi_ssid"
+PSW = "your_wifi_psw"
+APIGTW = "https://"
 #I2C Configuration - DEFAULT PINS
 i2c = I2C(0, I2C.MASTER, baudrate=100000)
 #WIFI CONFIG
